@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="two.js"> </script>
+<link rel="stylesheet" href="morse_style.css">
+<script type="text/javascript" src="morse_script.js"> </script>
+</head>
+
+<body id="main_body">
+
+<div id="draw" class="center">
+  <div class="button_div">
+    <button id="clear" class="button">Clear</button>
+    <button id="delete_last" class="button">Del</button>
+  </div>
+  <div class="output">
+    <p id="output"> </p>
+  </div>
+  <p id="instruction">Press F to send a signal.</p>
+  <p id="dit">•</p>
+  <p id="dash">−</p>
+  <p id="my_name">masondarcy@gmail.com</p>
+</div>
+
+<audio id="audio" controls style="display:none">
+
+<source  src="beep.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</body>
+
+</html>
